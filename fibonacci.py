@@ -3,10 +3,12 @@
 
 numero = int(input("Quanti termini? "))
 
-# n1, n2 = 0, 1   OPPURE
+# n1 = 0
+# n2 = 1
 
-n1 = 0
-n2 = 1
+n1, n2 = 0, 1
+
+
 count = 0
 
 if numero <= 0:
